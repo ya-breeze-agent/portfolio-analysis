@@ -77,3 +77,20 @@ React 19 + TypeScript + Vite. API calls go through `src/api.ts`. `src/App.tsx` o
 1. FlexQuery upload → `transactions` rows with `asset_category = "ETF"` (for ETFs).
 2. Fundamentals background cycle seeds `asset_fundamentals.asset_type = "ETF"` from the IB category, then fetches Yahoo fundamentals (country/sector) for stocks and Yahoo pre-aggregated breakdown weights (sector/country/bond-rating) for ETFs into `etf_breakdowns`.
 3. `GET /portfolio/breakdown` → breakdown service reads `asset_fundamentals` for stocks and `etf_breakdowns` for ETFs; aggregates weighted by position value. Bond ETFs contribute to bond-rating dimension only; commodities are excluded from country/sector.
+
+## Agent skills
+
+### Issue tracker
+
+Track all work in Idea Store, including artifact-host.
+Read `docs/agents/issue-tracker.md` before tracker operations.
+
+### Triage labels
+
+Use the five standard triage role names.
+Read `docs/agents/triage-labels.md` for their Idea Store interpretation.
+
+### Domain docs
+
+Use a single context for this repository.
+Read `docs/agents/domain.md` before domain exploration.
