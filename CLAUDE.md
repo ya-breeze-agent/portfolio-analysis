@@ -82,7 +82,7 @@ React 19 + TypeScript + Vite. API calls go through `src/api.ts`. `src/App.tsx` o
 
 ### Issue tracker
 
-Track all work in Idea Store, including artifact-host.
+Track this repository's work in Idea Store.
 Read `docs/agents/issue-tracker.md` before tracker operations.
 
 ### Triage labels
